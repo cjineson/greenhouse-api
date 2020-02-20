@@ -1,0 +1,14 @@
+{
+    "server": {
+		"port": 10666,
+        "isHTTPSEnabled": false,
+		"isMutualTLS": true,
+		"isCNWhitelist": true,
+		"serverCert": "config/cert.pem",
+    	"caCerts": "config/cacerts.pem",
+    	"privateKey": "config/key.pem",
+    	"privateKeyPass": "japHSy75RAte7uSw2P-ED6",
+		"cnWhitelist": "cpj-api-sit.intranet.ia.test.group,abc.def.ghi",
+		"corsallow": "http://greenhouse.chrisineson.com"
+	}
+}

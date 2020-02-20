@@ -1,0 +1,28 @@
+{
+  "name": "green-home-api",
+  "version": "1.0.0",
+  "description": "NodeJS Koa API",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "curl localhost:10666/green-home-api",
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js"
+  },
+  "author": "Chris Ineson",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "nconf": "^0.10.0",
+    "node-fetch": "^2.6.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
